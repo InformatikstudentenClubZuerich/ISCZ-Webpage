@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link href="./css/style.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="./js/index.js"></script>
+
+    <!-- Title -->
+    <title>Landing Page</title>
+</head>
+<body>
+    <div id="not-mobile">
+        <div id="loading-content">
+            <span class="text">Our website isn't mobile compatible yet.</span>
+        </div>
+    </div>
+
+    <header>
+        <nav id="nav-desktop" class="nav__desktop">
+            <a href="/" class="brand">Informatikstudenten Club Zürich</a>
+            <div class="links">
+                <a href="/" target="_self" class="nav__link">Home</a>
+                <a href="#" target="_self" class="nav__link">About</a>
+                <a href="#" target="_self" class="nav__link">Events</a>
+            </div>
+        </nav>
+        <nav id="nav-mobile" class="hidden nav__mobile nav__mobile__active">
+            <div class="flex flex-row justify-between">
+                <a href="/" class="brand">Informatikstudenten Club Zürich</a>
+                <button id="mobile-nav-button" type="button" class="nav__mobile__button justify-center items-center align-middle text-2xl font-bold">&#9776;</button>
+            </div>
+            <div id="mobile-nav-links" class="nav__mobile__links
+            flex-column gap-4
+            nav__mobile__links__active hidden">
+                <a href="/" target="_self" class="nav__link">Home</a>
+                <a href="/" target="_self" class="nav__link">About</a>
+                <a href="/" target="_self" class="nav__link">Events</a>
+            </div>
+        </nav>
+    </header>
+       
+    <main>
+        <section id="landing">
+            <div class="landing-container">
+                <span class="title">Willkommen im Klub. Wir sind Informatiker aus ganz Zürich. </span>
+                <span class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus malesuada ex id mattis. Nunc vehicula nisl id nibh ultrices lacinia lacinia luctus nibh. Vivamus sed libero eget dolor pellentesque cursus sed non ex. Sed justo lacus, blandit vel dolor sit amet, tincidunt placerat augue.</span>
+                <a href="/#" class="landing-link font-semibold" style="color:rgb(30 58 138 / 1);">Mehr erfahren &#8594;</a>
+            </div>
+        </section>
+
+        <section id="statistics">
+
+        </section>
+
+        <section id="whyus">
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#" target="_self" class="footer__link">Datenschutz</a>
+            <a href="#" target="_self" class="footer__link">Impresum</a>
+        </div>
+        <p>ISCZ.CH © 2024</p>
+    </footer>
+</body>
+</html>
